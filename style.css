@@ -1,0 +1,76 @@
+*, html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+.ul-navbar {   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('back.jpg'); 
+    background-size: cover; 
+    background-position: center;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.li-navbar {
+    list-style-type: none;
+    padding: 5px;
+    margin: 10px;
+}
+
+
+.li-navbar:hover {
+    background-color: rgb(11, 205, 235);
+    transition: .5s ease-in-out;
+    transition-delay: .1s;
+    border-radius: 10px;
+    
+}
+
+.a-navbar{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-weight: 500;
+    font-style: inherit ;
+}
+
+.content {   
+    position: relative;
+    width: 250px; /* Sesuaikan lebar sesuai kebutuhan Anda */
+    height: 50px; /* Sesuaikan tinggi sesuai kebutuhan Anda */
+
+}
+
+.a-content {   
+    background-color: rgb(255, 255, 255);
+    text-decoration: none;
+    width:250px;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+.img-content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 30px; /* Sesuaikan lebar gambar sesuai kebutuhan Anda */
+    height: 50px;
+
+}
+
